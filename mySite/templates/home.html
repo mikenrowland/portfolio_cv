@@ -1,0 +1,221 @@
+{% load static %}
+{% load crispy_forms_tags %}
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Michael Rowland - Curriculum Vitae</title>
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Curriculum Vitae of Michael Rowland."/>
+<meta charset="UTF-8"> 
+
+
+<link type="text/css" rel="stylesheet" href="{% static 'css/style1.css' %}">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+			<img src="{% static 'images/headshot1.jpg'%}" alt="Michael Rowland" />
+		</div>
+		
+		<div id="name">
+			<h1 class="quickFade delayTwo">Michael Rowland</h1>
+			<h2 class="quickFade delayThree">Medical Scientist | <br> Tech Intern</h2>
+		</div>
+		
+		<div id="contactDetails" class="quickFade delayFour">
+			<ul>
+				<li>email: mykhelmyers@gmail.com</a></li>
+				<li>website: <a href="https://clicknblog.herokuapp.com/"> clicknblog.herokuapp.com</a></li>
+				<li>mobile: 08069242727</li>
+			</ul>
+            <div class="media">
+            <ul>
+            <li><a class="media" href="https://github.com/mykie88"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+            <li><a class="media" href="https://www.linkedin.com/in/michael-rowland-ngwube/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+            <li><a class="media" href="https://twitter.com/inc_mykie"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+            </ul>
+            </div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+        <section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Personal Profile</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<p>A focused, dynamic, and performance-driven professional, who prioritizes teamwork and diversity as the key to achieving set targets and optimizing results.</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+        <br>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Work Experience</h1>
+			</div>
+			
+			<div class="sectionContent">
+                <article>
+					<h2>Tech Intern at <a href="https://hng.tech" target="_blank">HNG</a>
+						<img src="static/images/hng.png" alt="HNG" class="img-fluid img-profile rounded-circle mx-auto mb-2"
+                        width="30"
+                        height="20"/></h2>
+					<p class="subDetails">August 2021 - present</p>
+                    <p>Working of different tasks and team projects</p>
+				</article>
+                <br>
+                <article>
+					<h2>Medical Scientist at Federal Medical Center, Jalingo</h2>
+					<p class="subDetails">May 2019 - Present</p>
+					<p>Supervise and mentor intern scientists on the technical know-how of laboratory diagnostics and quality control processes in clinical chemistry.</p>
+				</article>
+				<br>
+                <article>
+					<h2>Tech Intern at <a href="https://training.zuri.team/" target="_blank">Zuri</a>
+                        <img src="static/images/zuri.png" alt="Zuri" class="img-fluid img-profile rounded-circle mx-auto mb-2"
+                        width="35"
+                        height="25"/>
+                    </h2>
+					<p class="subDetails">March - July 2021</p>
+                    <p>Built a blog app, <a href="https://clicknblog.herokuapp.com/">ClicknBlog,</a> with Django <br> Worked on different team projects such as Ecop, FundMe, and Stocka</p>
+				</article>
+				<br>
+				<article>
+					<h2>Quality Surveyor at World Health Organisation</h2>
+					<p class="subDetails">June - August 2015</p>
+					<p>Supervised the monthly performance of WHO immunization plus days exercises in different local government areas of the state.</p>
+				</article>
+                <br>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Skills</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Python</li>
+                    <li>Django</li>
+                    <li>Git</li>
+                    <li>Technical</li>
+                    <li>Highly analytical</li>
+					<li>Proactive</li>
+					<li>Multilingual</li>
+                    <li>Organized</li>
+                    <li>Adaptable</li>
+					<li>Technical writing</li>	
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+		<br>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>University of Maiduguri</h2>
+					<p class="subDetails">Qualification</p>
+					<p>Bachelor of Medical Laboratory Science (B.MLS) 2011</p>
+				</article>
+				<br>
+				<article>
+					<h2>University of Ibadan</h2>
+					<p class="subDetails">Qualification</p>
+					<p>Master of Science in Chemical Pathology (MSc.) 2019</p>
+				</article>
+                <br>
+                <article>
+					<h2>Zuri Team</h2>
+					<p class="subDetails">Qualification</p>
+					<p>Certificate of Completion (Python stack) 2021</p>
+				</article>
+                <br>
+			</div>
+			<div class="clear"></div>
+		</section>
+        <br>
+
+        <section>
+			<div class="sectionTitle">
+				<h1>Referees</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<p>Available on request.</p>
+                </article>
+			</div>
+			<div class="clear"></div>
+		</section>
+        <br>
+
+        <section>
+			<div class="sectionTitle">
+				<h1>Contact Me</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<p>Please you can reach me using the form below <br>
+                        I look forward to hearing from and working with you.</p>
+				</article>
+            </div>
+            <div class="sectionContent">
+                <form class="was-validated" method="post">
+                    {% csrf_token %}
+                    {{ form | crispy }}
+
+                    <input type="submit" value="Send">
+                    <br><br><br>
+                    {% if messages %}
+                        <ul class="messages">
+                        {% for message in messages %}
+                        <li {% if message.tags %} class="{{ message.info }}"{% endif %}>{{ message }}</li>
+                        {% endfor %}
+                        </ul>
+                    {% endif %}
+                    <br>
+                    </div>
+                </form><br><br>
+            </div>    
+    
+			<div class="clear"></div>
+		</section>
+        
+
+    </div> 
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3753241-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
