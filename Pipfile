@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 whitenoise = "*"
 python-decouple = "*"
+waitress = "*"
 
 [dev-packages]
 
