@@ -8,6 +8,7 @@ whitenoise = "*"
 python-decouple = "*"
 waitress = "*"
 django = "*"
+django-crispy-forms = "*"
 
 [dev-packages]
 
