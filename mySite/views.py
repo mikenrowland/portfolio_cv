@@ -24,4 +24,4 @@ def home(request):
             return redirect('home')
     else:
         form = ContactForm()
-    return render(request, 'home.html', {'form': form})
+    return render(request, 'index.html', {'form': form})
