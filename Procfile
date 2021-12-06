@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT RESUME.wsgi:application
+web: waitress-serve --listen=127.0.0.1:8000 RESUME.wsgi:application
